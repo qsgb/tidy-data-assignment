@@ -4,9 +4,13 @@
 ======================================
 
 *README.md explains the main contents of the project;
+
 *Codebook.md explains all the variables and the computing procedure;
+
 *run_analysis.R is the R script for the project;
+
 *tidy.tet is the final tidy dataset;
+
 
 
 ##The Purpure of this project
