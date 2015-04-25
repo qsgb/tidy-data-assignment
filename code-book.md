@@ -1,10 +1,12 @@
-The name of the variables
+# Code book
+
+##The name of the variables
 =================
-"subjetct"
+###"subjetct"
 
   Integers form 1 to 30, indicate the 30 volunteers of this experiment
 
-"activity"
+###"activity"
 
   Charactor strings, indicate the six action for recording: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
 
