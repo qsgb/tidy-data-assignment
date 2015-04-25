@@ -6,9 +6,13 @@ There are 4 files in this repository:
 ======================================
 
 README.md explains the contents of the project;
+
 Codebook.md explains all the variables and the computing procedure;
+
 run_analysis.R is the R script for the project;
-tidy.tex is the final tidy dataset.
+
+tidy.tex is the final tidy dataset;
+
 
 
 The dataset
