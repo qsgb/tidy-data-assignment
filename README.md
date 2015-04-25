@@ -1,21 +1,20 @@
-There are 4 files in this repository:
+# Getting and Cleaning Data course project
+
+##There are 4 files in this repository:
 ======================================
 
-README.md explains the main contents of the project;
-
-Codebook.md explains all the variables and the computing procedure;
-
-run_analysis.R is the R script for the project;
-
-tidy.tet is the final tidy dataset.
+*README.md explains the main contents of the project;
+*Codebook.md explains all the variables and the computing procedure;
+*run_analysis.R is the R script for the project;
+*tidy.tet is the final tidy dataset;
 
 
-The Purpure of this project
+##The Purpure of this project
 ======================================
 We will use the Human Activity Recognition Using Smartphones Dataset to generate our own tidy data. The information of this dataset can be found  here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. The dataset are devide to 2 part: training set and testing set. We will merge these two parts together, and subset the mean and standiviation variables (see codebook.md for details) for each record. These variables and the the activitiy labels will be given proper names. Finally, we will generate our tidy data which show the means of each variables for every subject (the volunteers) and activity (see codebook.md for details).
 
 
-The reference of the dataset
+##The reference of the dataset
 ======================================
 Human Activity Recognition Using Smartphones Dataset
 
