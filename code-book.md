@@ -2,11 +2,11 @@ The name of the variables
 =================
 "subjetct"
 
-     integer form 1 to 30, indicate the 30 volunteers of this experiment
+Integers form 1 to 30, indicate the 30 volunteers of this experiment
 
 "activity"
 
-     charactor strings, indicate the six action for recording: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
+Charactor strings, indicate the six action for recording: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
 
 
 
