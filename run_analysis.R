@@ -1,4 +1,3 @@
-##setwd("C:\\Users\\Jian\\Documents\\Study\\R book\\coursera R\\tidydata1")
 ##1) merge train and test
 
   #read train data 
