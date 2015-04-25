@@ -1,3 +1,4 @@
+##setwd("C:\\Users\\Jian\\Documents\\Study\\R book\\coursera R\\tidydata1")
 ##1) merge train and test
 
   #read train data 
@@ -21,9 +22,9 @@ merge<-rbind(train.data,test.data)
  
   #read all features
 features<-read.table(".\\UCI HAR Dataset\\features.txt",sep="",stringsAsFactors = FALSE)
-  #find the variable with mean and std and combine with the sujects and labels
+  #find variables with mean and std, then combine them with sujects and labels
 index<-c(grep("mean\\(\\)|std\\(\\)",features[,2]),562,563)
-  #subset these variables
+  #subjet these variables
 subset<-merge[,index]
 
 ##3)name activity
@@ -34,7 +35,7 @@ subset[,ncol(subset)]<-factor(subset[,ncol(subset)],labels=activity[,2])
 
 ##4)name variable
 
-  #find the names with mean and std and name the variables
+  #find names with mean and std, then name the variables by these names
 names(subset)<-c(grep("mean\\(\\)|std\\(\\)",features[,2],value=TRUE),"subject","activity")
 
 ##5) tidy data
