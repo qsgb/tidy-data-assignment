@@ -114,7 +114,7 @@ fBodyBodyGyroMag-std(),
 fBodyBodyGyroJerkMag-mean(),
 fBodyBodyGyroJerkMag-std()
 
-**All the variables are normalised to (-1,1), the final table shows the mean values of each variable for each subject (volunteer) and each activity**
+**All the variables are normalised and bounded to [-1,1], the final table shows the mean values of each variable for each subject (volunteer) and each activity**
 
 ##The procedure
 =================
