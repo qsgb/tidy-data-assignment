@@ -122,4 +122,4 @@ fBodyBodyGyroJerkMag-std()
 * 2) Read the features list, find all the features containing "mean()" and "std()" by function grep(). Subset the dataset using the retured indexes and the latest two columns (subject and activity labels).
 * 3) find all the names containing "mean()" and "std()" and name the variables by them. The last 2 colum are named "subject" and "activity"
 * 4) read the activity labels and name the colume of "activity" with these labels
-* 5) use the group_by() and summaris_each() functions in the dplyr pacheages to caculate the mean value of each variable for each subject and activity. Then the final data.frame are written to a text file. 
+* 5) use the group_by() and summaris_each() functions in the dplyr pacheages to caculate the mean value of each variable for each subject and activity. Then the final data frame are written to a text file. 
