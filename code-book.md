@@ -112,7 +112,9 @@ fBodyBodyAccJerkMag-std(),
 fBodyBodyGyroMag-mean(),
 fBodyBodyGyroMag-std(),
 fBodyBodyGyroJerkMag-mean(),
-fBodyBodyGyroJerkMag-std(),
+fBodyBodyGyroJerkMag-std()
+
+**All the variables are normalised to (-1,1), the final table shows the mean values of every variable for each subject (volunteer) and each activity**
 
 
 
